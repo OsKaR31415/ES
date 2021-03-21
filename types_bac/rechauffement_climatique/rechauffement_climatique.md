@@ -1,11 +1,11 @@
----
-title: Les scénarios de transition écologiques
-subtitle: Prévisions écologiques : faut-il avoir peur ?
-author: Benoit Leroux, Oscar Plaisant
-fontsize: 12pt
+
+# Les scénarios de transition écologiques
+### Prévisions écologiques : faut-il avoir peur ?
+
+##### Benoit Leroux, Oscar Plaisant
 ---
 
-# Le GIEC
+## Le GIEC
 
 \pause{}
 
@@ -21,7 +21,7 @@ but : évaluation (sans parti pris) des données sur le changement du climat.
 
 ---
 
-# Les scénarios RCP
+## Les scénarios RCP
 
 \pause{}
 
@@ -41,19 +41,19 @@ RCP2.6:   participation de tous les pays, élimination active des émissions de 
 
 ---
 
-# Les scénarios RCP
+## Les scénarios RCP
 
 ![](concentration_co2.png)
 
 ---
 
-# Les scénarios RCP
+## Les scénarios RCP
 
 ![](temperatures.png)
 
 ---
 
-# Pourquoi est-ce dangeureux ?
+## Pourquoi est-ce dangeureux ?
 
 \pause{}
 
@@ -71,19 +71,19 @@ $\implies$ moins de production agricole
 
 ---
 
-# Pourquoi est-ce dangeureux ?
+## Pourquoi est-ce dangeureux ?
 
 ![](rendement_mais.png)
 
 ---
 
-# Pourquoi est-ce dangeureux ? -- Types de dangers dans le monde
+## Pourquoi est-ce dangeureux ? -- Types de dangers dans le monde
 
 ![](carte_adaptation.png)
 
 ---
 
-# Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
+## Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
 
 \pause{}
 
@@ -97,7 +97,7 @@ Nicaragua : economie basé sur le café :
 
 ---
 
-# Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
+## Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
 \pause{}
 
 ### Enjeux
@@ -114,7 +114,7 @@ Nicaragua : economie basé sur le café :
 
 ---
 
-# Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
+## Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
 \pause{}
 
 ### Risques
@@ -136,7 +136,7 @@ Nicaragua : economie basé sur le café :
 
 ---
 
-# Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
+## Pourquoi est-ce dangeureux ? -- Exemple du Nicaragua
 \pause{}
 
 ### Mesures d'adaptation :
@@ -160,7 +160,7 @@ Nicaragua : economie basé sur le café :
 
 ---
 
-# Conclusion
+## Conclusion
 
 \pause{}
 
