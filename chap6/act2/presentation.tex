@@ -1,0 +1,139 @@
+\documentclass[12pt]{beamer}
+
+
+\usetheme{Warsaw} % Alternatively: Warsaw, Berkeley, Copenhagen, CambrigeUS
+\useoutertheme{split} % Alternatively: miniframes, infolines, split
+\useinnertheme{circles}
+
+\definecolor{UBCblue}{RGB}{50, 50, 200} % UBC Blue (primary)
+
+\usecolortheme[named=UBCblue]{structure} % Alternatively: structure, beaver
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\usepackage{amsmath, amsfonts, amssymb}
+
+\title{Rendement d'une centrale Hydroélectrique}
+\subtitle{Centrale de Grand'maison}
+\author{Oscar Plaisant}
+
+
+
+\begin{document}
+    \frame{\titlepage}
+
+    \section{Calcul du rendement}
+
+    \begin{frame}{Formules}
+        \pause{}
+        $E_{pp} = m\cdot g\cdot h$
+
+        \vspace{1ex}\pause
+
+        \hspace{1em}$E_{pp}$\,:\,énergie potentielle de position\hspace{1em} $m$\,:\,masse en \texttt{kg}\hspace{1em} \texttt{g}\,:\,intensité du champ de pesanteur en $N\cdot kg^{-1}$\hspace{1em}$h$\,:\,hauteur\,en\,\texttt{m}
+
+        \vspace{2em}\pause
+
+        $E = P\cdot\Delta t$
+
+        \vspace{1ex}\pause
+
+        \hspace{1em}$E$\,:\, énergie en \texttt{J}\hspace{1em} $P$\,:\, puissance en \texttt{W}\hspace{1em}\,$\Delta t$
+
+    \end{frame}
+
+    \begin{frame}{Calcul du poids}
+
+        \pause
+        $V = 132 000 000 = 1,32\cdot 10^{8} m^3$\pause
+
+        1 $m^3$ d'eau pèse 1000 kg.\pause
+
+        $m = 1000\cdot V = 1,32\cdot 10^{11}kg$
+
+    \end{frame}
+
+    \begin{frame}{Calcul de l'énergie potentielle}
+        \pause
+
+        $m = 1,32\cdot 10^{11} kg$\pause
+
+        On sait que $g = 9.80 m\cdot s^{-1}$\pause
+
+        On sait également que $h = 926,50m$\pause
+
+        $$
+            \begin{array}{rcl}
+                E_{pp} & = & m\cdot g\cdot h\\\pause
+                       & = & 1,32\cdot 10^{11} \cdot 9.8\cdot 926,50\\\pause
+                       & = & 1,19\cdot 10^{15} J
+            \end{array}
+        $$
+    \end{frame}
+
+    \begin{frame}{Calcul de la durée}
+        \pause
+
+        Le débit de la chute d'eau est $D = 217m^3s^{-1}$
+        $V = 1,32\cdot 10^{8}m^3$
+
+        $$
+            \begin{array}{rcl}
+                \Delta t & = & \dfrac{V}{D}\\[2ex]\pause
+                         & = & \dfrac{1,32\cdot 10^{8}}{217}\\[2ex]\pause
+                         & = & 608294s
+            \end{array}
+        $$
+
+    \end{frame}
+
+    \begin{frame}{Calcul de la puissance}
+        \pause
+
+        $E = E_{pp} = 1,19\cdot 10^{18} J$\pause
+
+        On sait que $E = P\cdot \Delta t$.\pause
+        On en déduit que $P = \dfrac{E}{\Delta t}$
+
+        $$
+            \begin{array}{rcl}
+                P & = & \dfrac{E}{\Delta t}\\[2ex]\pause
+                  & = & \dfrac{1,19\cdot 10^{15}}{608294}\\[2ex]\pause
+                  & = & 1956290872 W\\\pause
+                  & = & 1956 MW
+            \end{array}
+        $$
+
+    \end{frame}
+
+    \begin{frame}{Calcul du rendement}
+        \pause
+
+        $$
+            \begin{array}{rcl}
+                \eta & = & \dfrac{P_{reelle\, produite}}{P_{entree}}\\[2ex]\pause
+                     & = & \dfrac{1956}{1800}\\[1ex]\pause
+                     & = & 0.92\\\pause
+                     & = & 92\%
+            \end{array}
+        $$
+    \end{frame}
+
+    \section{Conclusion}
+
+    \begin{frame}{Conclusion}
+        \textbf{Rendement en fonction du type de centrale}
+
+        \begin{center}
+            \includegraphics[width=1\linewidth]{graphique.png}
+        \end{center}
+
+
+    \end{frame}
+
+        
+\end{document}
+
