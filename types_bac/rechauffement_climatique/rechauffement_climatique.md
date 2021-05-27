@@ -1,9 +1,12 @@
-
-# Les scénarios de transition écologiques
-### Prévisions écologiques : faut-il avoir peur ?
-
-##### Benoit Leroux, Oscar Plaisant
 ---
+title: Réchauffement climatique 
+subtitle: Prévisions écologiques, Faut-il avoir peur ?
+author: Benoit Leroux, Oscar Plaisant
+documentclass: beamer
+header-includes: |
+    \usepackage{amsmath, amssymb, amsfonts, mathrsfs}
+---
+
 
 ## Le GIEC
 
@@ -73,7 +76,7 @@ $\implies$ moins de production agricole
 
 ## Pourquoi est-ce dangeureux ?
 
-![](rendement_mais.png)
+![](evolution_rendement.png)
 
 ---
 
